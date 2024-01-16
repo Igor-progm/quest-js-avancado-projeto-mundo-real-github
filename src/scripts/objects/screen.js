@@ -6,6 +6,9 @@ const screen = {
                           <div class="data">
                               <h1>${user.name ?? 'Não possui nome cadastrado 😓'}</h1>
                               <p>${user.bio ?? 'Não possui bio cadastrada 😓'}</p>
+                              <br>
+                              <p>${"Seguidores: "}${user.followers ?? 'Não possui seguidores 😓'}${" ❤️"}</p>
+                              <p>${"Seguindo: "}${user.following ?? 'Não segue nenhum outro usuário 😓'}${" 🤩"}</p>
                           </div>
                         </div>`
         
