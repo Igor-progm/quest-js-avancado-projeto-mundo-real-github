@@ -141,6 +141,21 @@ main {
   display: block;
   border-radius: 7px;
   transition: 0.3s ease-in-out;
+  font-weight: bold;
+}
+
+.container .profile-data .repositories ul li a .repo-info{
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  margin: 10px;
+}
+
+.container .profile-data .repositories ul li a .repo-info .i{
+  background-color: rgb(123, 44, 250);
+  color: #fff;
+  padding: 4px;
+  border-radius: 5px;
 }
 
 .container .profile-data .repositories ul li a:hover{
