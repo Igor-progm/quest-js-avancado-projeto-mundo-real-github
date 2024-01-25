@@ -21,6 +21,9 @@ const user = {
     },
     setEvents(events){
         this.events = events
+    },
+    setLanguage(language){
+        this.repo_language = language
     }
 }
 
